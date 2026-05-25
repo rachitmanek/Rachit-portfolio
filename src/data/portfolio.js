@@ -8,7 +8,7 @@ export const portfolioData = {
     tagline: "Backend-focused developer building scalable web applications",
     bio: "Passionate Full Stack Developer with experience in FastAPI, Node.js, React.js, PostgreSQL, and microservice-based application development. Skilled in building scalable backend systems, RESTful APIs, and modern responsive web applications.",
     avatar: avatar,
-    resume: "/Rachit_Manek_New (1).pdf",
+    resume: "https://drive.google.com/file/d/1uxmvPpD-MmOx_iiT8y_5gaTxyoEjZIEp/view?usp=sharing",
     location: "Ahmedabad, Gujarat",
     email: "rachit.manek3@gmail.com",
     phone: "+91-6353874346",
@@ -63,8 +63,7 @@ export const portfolioData = {
       title: "Smart Hospital Management",
       description:
         "A SaaS-based smart hospital management system built using FastAPI, ReactJS, and PostgreSQL for centralized hospital operations, IoT device management, and real-time telemetry monitoring.",
-      image:
-        "https://res.cloudinary.com/ddxe0b0kf/image/upload/v1767382804/Gemini_Generated_Image_2s3qq32s3qq32s3q_j8mdt4.png",
+      image:"https://file.aiquickdraw.com/imgcompressed/img/compressed_c29612cbacab5b6e21593d4119c7d707.webp",
       technologies: [
         "FastAPI",
         "ReactJS",

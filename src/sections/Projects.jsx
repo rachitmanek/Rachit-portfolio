@@ -12,7 +12,7 @@ const Projects = () => {
 
   const displayedProjects = showAll
     ? projects
-    : projects.filter((p) => p.featured);
+    : projects.slice(0, 3);
 
   return (
     <Section
