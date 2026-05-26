@@ -8,7 +8,7 @@ export const portfolioData = {
     tagline: "Backend-focused developer building scalable web applications",
     bio: "Passionate Full Stack Developer with experience in FastAPI, Node.js, React.js, PostgreSQL, and microservice-based application development. Skilled in building scalable backend systems, RESTful APIs, and modern responsive web applications.",
     avatar: avatar,
-    resume: "https://drive.google.com/file/d/1s-lbuD7tmvLbdL2nVjzSHXK2qJj0XJhb/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/17IvjK9t99bhRCE5Qw_VvYMsLhYN9fTnm/view?usp=sharing",
     location: "Ahmedabad, Gujarat",
     email: "rachit.manek3@gmail.com",
     phone: "+91-6353874346",
@@ -49,11 +49,10 @@ export const portfolioData = {
     { name: "MongoDB", level: 80, category: "Database" },
     { name: "PostgreSQL", level: 85, category: "Database" },
 
-    { name: "Docker", level: 70, category: "DevOps" },
-    { name: "MQTT", level: 75, category: "Tools" },
+    { name: "MQTT", level: 75, category: "Tools & Technologies" },
     { name: "AWS S3", level: 65, category: "Cloud" },
-    { name: "Git & GitHub", level: 85, category: "Tools" },
-    { name: "Postman", level: 80, category: "Tools" },
+    { name: "Git & GitHub", level: 85, category: "Tools & Technologies" },
+    { name: "Postman", level: 80, category: "Tools & Technologies" },
   ],
 
   // Projects
