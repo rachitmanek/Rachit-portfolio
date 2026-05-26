@@ -48,12 +48,19 @@ const Projects = () => {
               >
                 <Card className="group h-full flex flex-col">
                   {/* Project Image */}
-                  <div className="relative h-48 overflow-hidden bg-surface-elevated">
+                  <div
+                    className="relative h-48 overflow-hidden bg-surface-elevated"
+                    style={project.imageStyle === "contain" ? { background: "linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%)" } : {}}
+                  >
                     <img
                       src={project.image}
                       alt={project.title}
                       loading="lazy"
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      className={`w-full h-full transition-transform duration-300 group-hover:scale-110 ${
+                        project.imageStyle === "contain"
+                          ? "object-contain p-6"
+                          : "object-cover"
+                      }`}
                       onError={(e) => {
                         e.target.style.display = 'none';
                         e.target.nextSibling.style.display = 'flex';

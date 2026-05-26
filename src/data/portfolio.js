@@ -8,7 +8,7 @@ export const portfolioData = {
     tagline: "Backend-focused developer building scalable web applications",
     bio: "Passionate Full Stack Developer with experience in FastAPI, Node.js, React.js, PostgreSQL, and microservice-based application development. Skilled in building scalable backend systems, RESTful APIs, and modern responsive web applications.",
     avatar: avatar,
-    resume: "https://drive.google.com/file/d/1uxmvPpD-MmOx_iiT8y_5gaTxyoEjZIEp/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1s-lbuD7tmvLbdL2nVjzSHXK2qJj0XJhb/view?usp=sharing",
     location: "Ahmedabad, Gujarat",
     email: "rachit.manek3@gmail.com",
     phone: "+91-6353874346",
@@ -101,7 +101,8 @@ export const portfolioData = {
       description:
         "Backend-focused Node.js application designed to manage cricket match data including runs, wickets, boundaries, and score operations using RESTful APIs.",
       image:
-        "https://res.cloudinary.com/ddxe0b0kf/image/upload/v1767383000/Gemini_Generated_Image_i05w8fi05w8fi05w_rq1gxx.png",
+        "https://play-lh.googleusercontent.com/LZs4ovS729np4vgGdEZswzIKdo1PTzFD2ZcMq0-uCD8OBjMI9lEuORDc64_8DvykiiA",
+      imageStyle: "contain",
       technologies: [
         "Node.js",
         "Express.js",
@@ -110,7 +111,7 @@ export const portfolioData = {
       ],
       liveUrl: "",
       githubUrl: "",
-      featured: false,
+      featured: true,
     },
   ],
 
@@ -134,7 +135,7 @@ export const portfolioData = {
     {
       id: 2,
       company: "Global Garner",
-      role: "Backend Developer",
+      role: "Backend Developer Intern",
       duration: "May 2024 - Jun 2024",
       location: "India",
       description:

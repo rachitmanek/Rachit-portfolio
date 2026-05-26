@@ -5,10 +5,8 @@ import { Section } from "../components/layout";
 import { portfolioData } from "../data/portfolio";
 
 const stats = [
-  { icon: Code2, value: "1+", label: "Years Experience" },
-  { icon: Rocket, value: "5+", label: "Projects Completed" },
-  // { icon: Users, value: "30+", label: "Happy Clients" },
-  // { icon: Coffee, value: "1000+", label: "Cups of Coffee" },
+  { icon: Code2, value: "6 +", label: "Months Experience" },
+  { icon: Rocket, value: "3+", label: "Projects Completed" },
 ];
 
 const About = () => {
